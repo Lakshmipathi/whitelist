@@ -4,4 +4,4 @@ Discourse.Markdown.whiteListTag('script', 'src', /https:\/\/asciinema.org\/a\/\d
 Discourse.Markdown.whiteListTag('script', 'id', '*');
 Discourse.Markdown.whiteListTag('script', 'async'); */
 Discourse.Markdown.whiteListTag('textarea');
-}).call(this);
+})();
